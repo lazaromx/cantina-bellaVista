@@ -1,0 +1,6 @@
+{
+  "name": "Cantina Bella Vista",
+  "description": "Restaurante italiano contemporâneo em São Paulo. Sabores artesanais que aproximam pessoas, ambiente aconchegante e reservas online.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

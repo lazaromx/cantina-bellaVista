@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-vinho-deep: #3B0914;
+    --color-vinho: #68182A;
+    --color-vinho-light: #8A263D;
+    --color-vinho-subtle: #FAF2F4;
+    --color-creme: #FDFBF7;
+    --color-creme-warm: #F6F1E7;
+    --color-creme-card: #FAF6EF;
+    --color-creme-border: #E5DBCD;
+    --color-dourado: #CDA34F;
+    --color-dourado-light: #DFB765;
+    --color-dourado-dark: #9F782E;
+    --color-texto: #281E19;
+    --color-texto-muted: #665A53;
+  }
+
+  html {
+    font-family: 'Inter', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    scroll-behavior: smooth;
+  }
+
+  h1, h2, h3, h4, .font-serif {
+    font-family: 'Playfair Display', Georgia, Cambria, 'Times New Roman', serif;
+  }
+}
+
+/* Compensação suave para o header fixo */
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+/* Padrão sutil italiano (azulejos / trattoria sutil) */
+.bg-subtle-pattern {
+  background-color: #FDFBF7;
+  background-image: radial-gradient(#68182A0A 1px, transparent 1px), radial-gradient(#CDA34F0A 1px, #FDFBF7 1px);
+  background-size: 40px 40px;
+  background-position: 0 0, 20px 20px;
+}
+
+.bg-wine-pattern {
+  background-color: #3B0914;
+  background-image: radial-gradient(rgba(205, 163, 79, 0.08) 1.5px, transparent 1.5px);
+  background-size: 28px 28px;
+}
